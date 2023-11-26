@@ -1,0 +1,43 @@
+<h1 class="allData-title">{{ title }}</h1>
+<fieldset style="width: 20%; margin: 0 auto">
+    <legend>Add new invoice</legend>
+    <form action="/newInvoice" method="post" style="display: flex; flex-direction: column">
+        <label for="InvoiceNo">Invoice Number:</label>
+        <input type="text" id="InvoiceNo" name="InvoiceNo" required>
+        <label for="image">Image:</label>
+        <input type="text" id="image," name="image," required>
+        <label for="Manufacturer">Manufacturer:</label>
+        <input type="text" id="Manufacturer" name="Manufacturer" required>
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required>
+        <label for="Sales_in_thousands">Sales in thousands:</label>
+        <input type="number" id="Sales_in_thousands" name="Sales_in_thousands" required>
+        <label for="__year_resale_value">Year Resale Value:</label>
+        <input type="number" id="__year_resale_value" name="__year_resale_value" required>
+        <label for="Vehicle_type">Vehicle Type:</label>
+        <input type="text" id="Vehicle_type" name="Vehicle_type" required>
+        <label for="Price_in_thousands">Price in Thousands:</label>
+        <input type="number" id="Price_in_thousands" name="Price_in_thousands" required>
+        <label for="Engine_size">Engine Size:</label>
+        <input type="number" id="Engine_size" name="Engine_size" required>
+        <label for="Horsepower">Horsepower:</label>
+        <input type="number" id="Horsepower" name="Horsepower" required>
+        <label for="Wheelbase">Wheelbase:</label>
+        <input type="number" id="Wheelbase" name="Wheelbase" required>
+        <label for="Width">Width:</label>
+        <input type="number" id="Width" name="Width" required>
+        <label for="Length">Length:</label>
+        <input type="number" id="Length" name="Length" required>
+        <label for="Curb_weight">Curb Weight:</label>
+        <input type="number" id="Curb_weight" name="Curb_weight" required>
+        <label for="Fuel_capacity">Fuel Capacity:</label>
+        <input type="number" id="Fuel_capacity" name="Fuel_capacity" required>
+        <label for="Fuel_efficiency">Fuel Efficiency:</label>
+        <input type="number" id="Fuel_efficiency" name="Fuel_efficiency" required>
+        <label for="Latest_launch">Latest Launch:</label>
+        <input type="text" id="Latest_launch" name="Latest_launch" required>
+        <label for="Power_perf_factor">Power Performance Factor:</label>
+        <input type="number" id="Power_perf_factor" name="Power_perf_factor" required>
+        <button type="submit">Add Invoice</button>
+    </form>
+</fieldset>

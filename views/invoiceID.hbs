@@ -1,0 +1,45 @@
+<h1 class="allData-title">{{ title }}</h1>
+<table class="allData-table" border="1">
+    <thead>
+        <tr class="allData-thead-tr">
+            <th>Invoice Number</th>
+            <th>Manufacturer</th>
+            <th>Image</th>
+            <th>Class</th>
+            <th>Sales in Thousands</th>
+            <th>Year Resale Value</th>
+            <th>Price in Thousands</th>
+            <th>Engine Size</th>
+            <th>Horsepower</th>
+            <th>Wheelbase</th>
+            <th>Width</th>
+            <th>Length</th>
+            <th>Curb Weight</th>
+            <th>Fuel Capacity</th>
+            <th>Fuel Efficiency</th>
+            <th>Latest Launch</th>
+            <th>Power Performance Factor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="allData-tbody-tr">
+            <td>{{ invoice.InvoiceNo }}</td>
+            <td>{{ invoice.Manufacturer }}</td>
+            <td><img src="{{ invoice.image }}" alt="Car Image" width="100"></td>
+            <td>{{ invoice.class }}</td>
+            <td>{{ invoice.Sales_in_thousands }}</td>
+            <td>{{ invoice.__year_resale_value }}</td>
+            <td>{{ invoice.Price_in_thousands }}</td>
+            <td>{{ invoice.Engine_size }}</td>
+            <td>{{ invoice.Horsepower }}</td>
+            <td>{{ invoice.Wheelbase }}</td>
+            <td>{{ invoice.Width }}</td>
+            <td>{{ invoice.Length }}</td>
+            <td>{{ invoice.Curb_weight }}</td>
+            <td>{{ invoice.Fuel_capacity }}</td>
+            <td>{{ invoice.Fuel_efficiency }}</td>
+            <td>{{ invoice.Latest_Launch }}</td>
+            <td>{{ invoice.Power_perf_factor }}</td>
+        </tr>
+    </tbody>
+</table>
